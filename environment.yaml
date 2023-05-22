@@ -1,0 +1,21 @@
+name: SSL-Pretraining-SI
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.7
+  - pip:
+    - numpy
+    - matplotlib
+    - torchgeo
+    - opencv-python
+    - lightning
+    - wandb
+    - kornia==0.6.9
